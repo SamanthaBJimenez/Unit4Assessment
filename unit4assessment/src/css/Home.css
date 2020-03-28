@@ -1,0 +1,14 @@
+.homeDiv {
+    width: 100%;
+    max-height: 250px;
+    margin-top: 10%;
+    padding: auto;
+}
+
+h1{
+  text-align: center;
+}
+
+.homeP {
+  margin: 3% 14%;
+}

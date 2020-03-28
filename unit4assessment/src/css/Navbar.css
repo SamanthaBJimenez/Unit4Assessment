@@ -1,0 +1,53 @@
+.NavUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #043322;
+    color: white;
+    z-index: 0;
+    height: 8%;
+}
+
+.selected {
+    background-color: #064C32;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    height: 100%;
+}
+
+.NavLi {
+    float: left;
+    color: white;
+    height: 100%;
+}
+
+.NavLi a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 23px 16px;
+}
+
+.NavLi:hover {
+    background-color: #075C3D;
+}
+
+.NavLi:visited {
+    color: lightgray;
+}
+
+.NavImg {
+    transform: scale(0.2);
+    top: -122px;
+    position: fixed;
+    left: 79%;
+}

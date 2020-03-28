@@ -1,0 +1,57 @@
+.FooterDiv {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #043322;
+    color: white;
+    z-index: 0;
+    height: 8%;
+}
+
+.FooterNav {
+    margin-right: -14%;
+}
+
+.FooterA {
+    float: right;
+    color: white;
+    height: 100%;
+    width: 5%;
+}
+
+.FooterA a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 23px 16px;
+}
+
+.FooterA:hover {
+    background-color: #075C3D;
+}
+
+/* .FooterA:hover {
+    background-color: #075C3D;
+    opacity: 1;
+    border-radius: 5%;
+    height: 100%;
+} */
+
+.FooterImg {
+    transform: scale(.11);
+    filter: brightness(0) grayscale(1) contrast(0.1);
+    position: relative;
+    padding: 0;
+    margin-top: -224px;
+    float: right;
+    z-index: 0;
+}
+
+/* .FooterA:hover .FooterImg{
+    filter: brightness(0) grayscale(1) contrast(1.0);
+} */
