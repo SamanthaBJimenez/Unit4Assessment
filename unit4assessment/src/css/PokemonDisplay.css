@@ -1,0 +1,42 @@
+.DisplayDiv {
+    width: 100%;
+    margin-top: 90px;
+    z-index:-1;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #ABB8B2;
+    /* opacity: .35; */
+}
+
+.right {
+    right: 0;
+    background-color: white;
+    opacity: .9;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    list-style-type: none;
+}
+
+p {
+    opacity: 1;
+    color: black;
+    filter: alpha(opacity=100);
+}

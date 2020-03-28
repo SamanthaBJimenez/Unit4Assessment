@@ -18,7 +18,7 @@ function App() {
         <Route exact path={"/pokemon/"}>
           <Pokemon/>
         </Route>
-        <Route exact path={"/pokemon/:name"}>
+        <Route path={"/pokemon/:name"}>
           <PokemonDisplay/>
         </Route>
           

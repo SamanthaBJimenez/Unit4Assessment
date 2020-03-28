@@ -36,11 +36,8 @@ const Pokemon = () => {
     }
     
     const pokeOptions = typePokemon.map((poke) => {
-        // debugger;
-        // return <li><NavLink exact to={`/pokemon/${poke.pokemon.name}`} >{poke.pokemon.name}</NavLink></li>
-        return <button type='button' value={poke.pokemon.name} key={poke.pokemon.name} onClick={(e) => {
-            debugger;
-            history.push(`/pokemon/${poke.pokemon.name}`);
+        return <button type='button' value={poke.pokemon.name} key={poke.pokemon.name} id ={poke.pokemon.url} onClick={(e) => {
+            history.push(`/pokemon/${poke.pokemon.name}`, {url: e.target.id});
         }}>{poke.pokemon.name}</button>
     })
 
