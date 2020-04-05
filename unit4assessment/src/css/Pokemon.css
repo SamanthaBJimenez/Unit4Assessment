@@ -1,3 +1,40 @@
 .PokemonSelect {
-    margin: 10.5% 46%;
+    margin: 9% 4%;
+    font-size: 14px;
+    background-color: #ABB8B2;
+}
+
+.pokeBtnDiv {
+    display: grid;
+    grid-template-columns: repeat(8, 13%);
+    position: absolute;
+    left: 17%;
+    top: 15%;
+    height: 75%;
+}
+
+.pokeBtn {
+    margin: 8px 0px 0px 10px;
+    font-size: 13px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.pokeBtn:hover {
+    background-color: #ABB8B2;
+    border-radius: 3px;
+}
+
+.directions {
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    width: 16%;
+    font-size: 135%;
+}
+
+.noResults {
+    position: relative;
+    width: 3020%;
 }
