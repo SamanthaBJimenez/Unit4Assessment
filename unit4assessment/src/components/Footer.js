@@ -4,7 +4,6 @@ import gitHub from '../ImgFiles/gitHub.png';
 import '../css/Footer.css';
 
 const Footer = () => {
-    
     return(
         <div className='FooterDiv'>
             <nav className='FooterNav'>
