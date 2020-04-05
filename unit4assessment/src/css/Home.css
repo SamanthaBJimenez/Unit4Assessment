@@ -10,5 +10,9 @@ h1{
 }
 
 .homeP {
-  margin: 3% 14%;
+  margin: 3% 10%;
+  font-size: 25px;
+  position: absolute;
+  text-align: center;
+  padding: 0px 140px 0px 140px;
 }

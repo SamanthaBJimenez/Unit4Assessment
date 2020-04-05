@@ -15,14 +15,14 @@ function App() {
         <Route exact path={"/"}>
           <Home/>
         </Route>
-        <Route exact path={"/pokemon/"}>
+        <Route exact path={"/pokemon"}>
           <Pokemon/>
         </Route>
         <Route path={"/pokemon/:name"}>
           <PokemonDisplay/>
         </Route>
           
-        <Route path="*">
+        <Route path={'*'}>
           <Error/>
         </Route>
       </Switch> 
