@@ -1,0 +1,5 @@
+.ErrorDiv {
+    transform: translate(350%, 130%) scale(2.3);
+    display: block;
+    position: absolute;
+}
